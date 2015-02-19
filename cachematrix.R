@@ -1,6 +1,3 @@
-## https://github.com/serdarcaglak/ProgrammingAssignment2 
-## 1st commit SHA-1 hash identifier:
-## 3896224e205d0f455cb7deeb920a89460178879e
 ## R Programming Assignment 2: 
 ## Lexical Scoping--caching the inverse of a matrix
 ## Matrix inversion is usually a time-consuming computation. 
