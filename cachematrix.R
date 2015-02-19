@@ -1,3 +1,8 @@
+## https://github.com/serdarcaglak/ProgrammingAssignment2 
+## 1st commit SHA-1 hash identifier:
+## 3896224e205d0f455cb7deeb920a89460178879e
+## R Programming Assignment 2: 
+## Lexical Scoping--caching the inverse of a matrix
 ## Matrix inversion is usually a time-consuming computation. 
 ## Therefore, caching the inverse of a matrix may be beneficial
 ## rather than computing it simultaneously.
@@ -10,6 +15,7 @@
 		## get the value of the matrix,
 		## set the value of the inverse of the matrix,
 		## get the value of the inverse of the matrix.
+## My code for this assignment is given as follows:
 		
     makeCacheMatrix <- function(Serdar=matrix()) {
     Caglak <- NULL           # This is where the result of inversion is stored
@@ -51,10 +57,10 @@
 	## if not, it calculates the inverse of the matrix and sets the inverse
   ## in the cache via the setInverse function. 	
 	
-    USA <- makeCacheMatrix(Serdar=matrix(1:4,2))
+    USA <- makeCacheMatrix(Serdar=matrix(9:12,2))
     USA$get() 
     USA$getInverse()
-    USA$set(matrix(5:8,2)) # to change matrix
+    USA$set(matrix(1:4,2)) # to change matrix
     USA$get()              # to get the setted matrix
     cacheSolve(USA)
     cacheSolve(USA)        # to check if the message is delivered
